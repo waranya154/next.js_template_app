@@ -13,6 +13,7 @@ export default function Navbar() {
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/contact', label: 'Contact' },
+    { href: '/guestion', label: 'question' },
   ];
 
   const isActive = (path: string) => pathname === path;
